@@ -1,0 +1,56 @@
+body {
+	font-family: Lato, sans-serif;
+	text-align: center;
+	width: 1920px;
+	height: 700px;
+}
+
+h1 {
+	color: #f23c27;
+	font-size: 80px;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+a {
+	font-size: 40px;
+}
+
+#slogan {
+	font-size: 60px;
+	text-align: center;
+	color: #f7d281;
+	padding-top: 40px;
+}
+
+#navmenu { 
+			list-style-type: none;
+			text-align: right;
+}
+#locations {
+	background-image: url("file:///Users/stephanie/Desktop/unit_3/images/skylines.png");
+	width: 1920px;
+	height: 380px;
+	text-align: center;
+}
+#locationslist {
+			list-style-type: none;
+}
+
+#homepagehero {
+	background-image: url("file:///Users/stephanie/Desktop/unit_3/images/herospidycup.jpg");
+	width: 1920px;
+	height: 700px;
+	text-align: left;
+
+}
+
+#header {
+	text-align: left;
+}
+
+#footer {
+	text-align: left;
+}
