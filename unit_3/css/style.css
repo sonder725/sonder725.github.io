@@ -30,7 +30,7 @@ a {
 			text-align: right;
 }
 #locations {
-	background-image: url("file:///Users/stephanie/Desktop/unit_3/images/skylines.png");
+	background-image: url("http://sonder725.github.io/unit_3/images/skylines.png");
 	width: 1920px;
 	height: 380px;
 	text-align: center;
@@ -40,7 +40,7 @@ a {
 }
 
 #homepagehero {
-	background-image: url("file:///Users/stephanie/Desktop/unit_3/images/herospidycup.jpg");
+	background-image: url("http://sonder725.github.io/unit_3/images/herospidycup.jpg");
 	width: 1920px;
 	height: 700px;
 	text-align: left;
