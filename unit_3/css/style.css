@@ -1,8 +1,17 @@
+*, 
+*:before, 
+*:after {    
+margin: 0; 
+padding: 0;     
+-moz-box-sizing: border-box;     
+-webkit-box-sizing: border-box;     
+box-sizing: border-box; 
+}
+
 body {
 	font-family: Lato, sans-serif;
 	text-align: center;
-	width: 1920px;
-	height: 700px;
+	
 }
 
 h1 {
@@ -30,9 +39,7 @@ a {
 			text-align: right;
 }
 #locations {
-	background-image: url("http://sonder725.github.io/unit_3/images/skylines.png");
-	width: 1920px;
-	height: 380px;
+	background-image: url("../images/skylines.png");
 	text-align: center;
 }
 #locationslist {
@@ -40,11 +47,16 @@ a {
 }
 
 #homepagehero {
-	background-image: url("http://sonder725.github.io/unit_3/images/herospidycup.jpg");
-	width: 1920px;
-	height: 700px;
+	background-image: url("../images/herospidycup.jpg");
 	text-align: left;
+	width: 100%;
+	height: 0;
+	padding-bottom: 50%;
 
+}
+.column {
+	width: 50%;
+	float: left;
 }
 
 #header {
