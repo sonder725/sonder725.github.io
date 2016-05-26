@@ -26,7 +26,11 @@ h3 {
 a {
 	font-size: 40px;
 }
-
+.clear:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
 #slogan {
 	font-size: 60px;
 	text-align: center;
