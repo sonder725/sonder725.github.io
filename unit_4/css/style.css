@@ -54,6 +54,8 @@ a {
 }
 #locationslist {
 			list-style-type: none;
+			font-size: 40px;
+			color: white;
 }
 
 #homepagehero {
