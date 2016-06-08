@@ -9,7 +9,7 @@ box-sizing: border-box; 
 }
 
 body {
-	font-family: 'Open-Sans', sans-serif;
+	font-family: "Open-Sans", sans-serif;
 	text-align: center;
 	
 }
@@ -17,7 +17,8 @@ body {
 h1 {
 	color: #f23c27;
 	font-size: 80px;
-	font-family: 'Bangers', serif;
+	font-family: "Bangers", serif;
+	letter-spacing: 3px;
 }
 
 h3 {
