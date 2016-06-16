@@ -7,17 +7,22 @@ padding: 0; 
 -webkit-box-sizing: border-box;     
 box-sizing: border-box; 
 }
+
+ul.leftnav {float: left;}
 ul.navmenu {
-    list-style-type: none;
+	float: right;
+ 	list-style-type: none;
+}
+
+nav {
     margin: 0;
-    padding: 0;
+    padding-bottom: 1em;
     overflow: hidden;
     background-color: #fedb0e;
 }
 
-ul.navmenu li {float: left;}
-ul.navmenu li a {
-    display: inline-block;
+ul.navmenu li {
+	display: inline-block;
     color: #0a1c20;
     text-align: center;
     padding: 14px 16px;
@@ -25,6 +30,11 @@ ul.navmenu li a {
     transition: 0.3s;
     font-size: 20px;
 }
+ul.navmenu a{color: #0a1c20;
+	text-decoration: none;
+
+}
+
 body {
 	font-family: 'Open-Sans', sans-serif;
 	text-align: center;
@@ -75,17 +85,26 @@ a {
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
-	border: 20px white solid;
+	border: 1em white solid;
 	padding: 0;
 }
 #locationslist {
+			display: inline-block;
 			list-style-type: none;
 			color: white;
 			font-size: 2em;
 			padding-bottom: 1em;
 }
 
-#inline {display: inline;}
+#menu {
+	background-image: url("../images/bam.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	border: 1em white solid;
+	padding: 0;
+}
+
 #homepagehero {
 	background-image: url("../images/herospidycupopacity.png");
 	background-repeat: no-repeat;
