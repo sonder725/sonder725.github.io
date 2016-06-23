@@ -1,0 +1,230 @@
+*, 
+*:before, 
+*:after {    
+margin: 0; 
+padding: 0;     
+-moz-box-sizing: border-box;     
+-webkit-box-sizing: border-box;     
+box-sizing: border-box; 
+}
+
+
+ul.leftnav {float: left;}
+ul.navmenu {
+	float: right;
+ 	list-style-type: none;
+}
+
+button {
+	background-color: #fedb0e;
+	font-size: 16px;
+	padding: 12px 28px;
+}
+nav {
+    margin: 0;
+    padding-bottom: 0;
+    background-color: #fedb0e;
+
+  } 
+
+ul.navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+    overflow: hidden;
+ 
+}
+
+
+a.navmenu:hover {
+	color: #d01e00;
+
+}
+
+ul.navmenu li {float: left;}
+ul.navmenu li a {
+    display: inline-block;
+    color: #0a1c20;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+ul.navmenu a{color: #0a1c20;
+	text-decoration: none;
+	
+}
+
+
+body {
+	font-family: 'Open-Sans', sans-serif;
+	text-align: center;
+	font-weight: normal;
+	}
+
+h1 {
+	color: #d01e00;
+	font-size: 80px;
+	font-family: 'Bangers', serif;
+	letter-spacing: .05em
+}
+
+h3 {
+	font-size: 40px;
+}
+
+a {
+	font-size: 40px;
+}
+
+
+#headerlogo {
+	text-align: left;
+	font-size: 80px;
+	font-family: 'Bangers', serif;
+	padding: .01em .5em;
+	margin: auto;
+}
+
+.clear:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+#slogan {
+	font-size: 80px;
+	text-align: left;
+	color: #fedb0e;
+	padding-top: 100px;
+	padding-left: 40px;
+	margin: 0;
+}
+
+
+#locations {
+	background-image: url("../images/skylines.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	border: 1.2em white solid;
+	margin: 0;
+	height: 0;
+	padding-bottom: 23%;
+}
+
+#locationslist {
+			list-style-type: none;
+			color: white;
+			font-size: 2em;
+}
+
+#locationslist li {
+	display: inline-block;
+
+}
+
+#menu {
+	background-image: url("../images/bammm.jpg");
+	background-repeat: no-repeat;
+	background size: 100%;
+	background-position: center;
+	height: 560px;
+	width: 100%;
+	text-align: center;
+	border: 1em white solid;
+	padding: 0;
+}
+
+
+
+#homepagehero {
+	background-image: url("../images/herospidycupopacity.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: left;
+	width: 100%;
+	height: 0;
+	padding-bottom: 50%;
+
+}
+.column {
+	width: 46%;
+	float: left;
+	padding: 2%;
+}
+
+#header {
+	text-align: left;
+}
+#aboutus {
+	background-image: url("../images/bammm.jpg");
+	background size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	border: 2em white solid;
+	padding: 0;
+	margin: 0;
+
+}
+img {
+	object-position: fill;
+}
+#aboutus  h3{
+	color: black;
+	padding: 2%;
+}
+#googleimages {
+	object-position: right;
+}
+
+
+h6{ 
+	font-size: 17px;
+	font-weight: normal; 
+	padding: 10px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/*slider homepage contact us section */
+div#sliderleft {
+	float: left;
+	width: 25%;
+	background: orange;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+#complicated {
+	border: 2em white solid;
+	padding: 0;
+	margin: 0;
+}
+
+#right {
+	float: left;
+	width: 74%;
+	background: yellow;
+	overflow: hidden;
+	padding-left: 2%;
+}
+
+#contact {
+	padding-bottom: 4%;
+}
+
+footer {
+	float: right;
+	text-align: left;
+	background-color: #fedb0e;
+	height: 4em;
+}
