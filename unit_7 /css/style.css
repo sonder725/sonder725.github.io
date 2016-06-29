@@ -1,0 +1,270 @@
+*, 
+*:before, 
+*:after {    
+margin: 0; 
+padding: 0;     
+-moz-box-sizing: border-box;     
+-webkit-box-sizing: border-box;     
+box-sizing: border-box; 
+}
+
+
+ul.leftnav {float: left;}
+ul.navmenu {
+	float: right;
+ 	list-style-type: none;
+}
+
+button {
+	background-color: #d01e00;
+	color: white;
+	font-size: 16px;
+	padding: 12px 28px;
+	border: none;
+}
+
+nav {
+    margin: 0;
+    padding-bottom: 0;
+    background-color: #fedb0e;
+
+  } 
+
+ul.navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+    overflow: hidden;
+ 
+}
+
+
+a.navmenu:hover {
+	color: #d01e00;
+
+}
+
+ul.navmenu li {float: left;}
+ul.navmenu li a {
+    display: inline-block;
+    color: #0a1c20;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+ul.navmenu a{color: #0a1c20;
+	text-decoration: none;
+	
+}
+
+
+body {
+	font-family: 'Open-Sans', sans-serif;
+	text-align: center;
+	font-weight: normal;
+	}
+
+h1 {
+	color: #d01e00;
+	font-size: 80px;
+	font-family: 'Bangers', serif;
+	letter-spacing: .05em;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+h4{
+	font-size: 20px;
+	text-align: center;
+	padding: 0 10%;
+	font-family: 'Open-Sans', sans-serif;
+	padding-bottom: 3%;
+	padding-left: 21%;
+	padding-right: 14%;
+}
+
+a {
+	font-size: 40px;
+}
+
+#headerlogo {
+	text-align: left;
+	font-size: 80px;
+	font-family: 'Bangers', serif;
+	padding: .01em .5em;
+	margin: auto;
+}
+
+.clear:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+#slogan {
+	font-size: 80px;
+	text-align: left;
+	color: #fedb0e;
+	padding-top: 100px;
+	padding-left: 40px;
+	margin: 0;
+}
+
+
+#locations {
+	background-image: url("../images/skylines.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	border: 1.2em white solid;
+	margin: 0;
+	height: 0;
+	padding-bottom: 23%;
+}
+
+#locationslist {
+			list-style-type: none;
+			color: white;
+			font-size: 2em;
+			padding-top: 1em;
+}
+
+#locationslist li {
+	display: inline-block;
+
+}
+
+#menu {
+	background-image: url("../images/menubackground.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 610px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#menu h1{
+	padding-top: 20%;
+} 
+#menu h3 {
+	font-size: 40px;
+	text-align: center;
+	padding: 0 10%;
+	font-family: 'Open-Sans', sans-serif;
+	padding-bottom: 5%;
+
+}
+
+#homepagehero {
+	background-image: url("../images/herospidycupopacity.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: left;
+	width: 100%;
+	height: 0;
+	padding-bottom: 50%;
+
+}
+.column {
+	width: 50%;
+	float: left;
+	border: 1.5em white solid;
+}
+
+#header {
+	text-align: left;
+}
+
+
+#aboutus {
+	background-image: url("../images/bammm.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 610px;
+	padding: 0;
+	margin: 0;
+}
+
+.abouttext {
+	padding-top: 2.1em;
+	padding-left: 5%;
+
+}
+img {
+	object-position: fill;
+}
+
+
+
+
+h6{ 
+	font-size: 17px;
+	font-weight: normal; 
+	padding: 10px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/*slider homepage contact us section */
+div#sliderleft {
+	float: left;
+	width: 25%;
+	background: black;
+	color: white;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	font-family: 'Open-Sans', sans-serif;
+}
+#complicated {
+	border: 2em white solid;
+	padding: 0;
+	margin: 0;
+}
+
+#right {
+	float: left;
+	width: 74%;
+	overflow: hidden;
+	padding-left: 2%;
+	padding-bottom: 1.5em;
+}
+
+#contact {
+	padding-bottom: 4%;
+	background-image: url("../images/contactus.png");
+	background-repeat: no-repeat;
+	width: 100%
+	border: 1.5em white solid;
+}
+#contact h1{
+	color: white;
+	padding-bottom: 2%; 
+}
+#contact h3 {
+	font-size: 20px;
+	padding-top: 2%;
+	color: white;
+}
+
+#googlemaps {
+	padding-top: 2%;
+}
+footer {
+	float: right;
+	text-align: left;
+	background-color: #fedb0e;
+	height: 4em;
+	width: 100%;
+}
