@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Comic Brew: Specialty Coffee</title>
+		<link href='https://fonts.googleapis.com/css?family=Bangers|Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="css/owltheme.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+ 	</head>
+
+	<body>
+		<div class="wrapper">
+		<!-- Nav -->
+
+		<nav class="clear">
+			<ul class="leftnav">
+				<li id="headerlogo">Comic Brew</li>
+			</ul>
+			<ul class="navmenu">
+				<li><a id="menunav" href= "pages/menupage.html">Menu</a></li>
+				<li><a id="aboutnav" href= "pages/aboutuspage.html">About Us</a></li>
+				<li><a id="contactnav" href= "mailto:stephanie.onder@sonymusic.com">Contact Us</a></li>
+			</ul>
+		</nav>
+
+		<!-- Homepage - Text On Hero -->
+		<div id="homepagehero">
+			<p id="slogan">With Great Coffee, <br/>Comes Great Productivity</p>
+			
+		</div>
+		
+		<!-- Homepage - About Us & Menu -2 column sections -->
+		
+		<section class="clear" id="together">
+			<article class="column" id="aboutus">
+				<h1 class="abouttext" id="aboutustext">About Us</h1>
+				<p>Meanwhile in New York City near Time Square, there is a small coffee cafe on the corner. We specialize in expresso, cappuccino, and coffee drinks from all around the world.</p>
+				<a class="cta" type="button" href="pages/aboutuspage.html">Learn More</a>
+			</article>
+			<article class="column" id="menu">
+
+				<h1>Menu</h1>
+				<h3>We have an array of flavors, and fun combinations of beverages and food.</h3>
+				<a class="cta" type="button" href="pages/aboutuspage.html">See Menu</a>
+			</article>
+		</section>
+
+		<!--Homepage Locations  -->
+
+		<section class="clear" id="locations">
+			<h1>Locations</h1>
+
+			<ul id="locationslist">
+				<li>New York City &diams;</li>
+				<li>Boston &diams;</li>
+				<li>Los Angeles &diams;</li>
+				<li>Nashville &diams;</li>
+				<li>Toronto</li>
+			</ul>
+
+		</section>
+
+		<!-- Homepage Contact Us / Map / Pictures layout -->
+		<section id="complicated">
+
+		<div class="owl-carousel" id="sliderleft">
+				<figure>
+					<img src="images/ironman.jpeg" alt="Iron Man Latte Art" title="Latte Art">
+					<figcaption>Iron Man Latte Art</figcaption>
+				</figure>
+				<figure>
+					<img src="images/collection.jpg" alt="Inside Store Decor" title="Store Decor">
+					<figcaption>Meanwhile in NYC...</figcaption>
+				</figure>
+				<figure>
+					<img src="images/captain_america.jpg" alt="Captain America Latte Art" title="Captain America Saves the Day">
+					<figcaption>Cap in a Cup</figcaption>
+				</figure>
+		</div>
+			<div class="clear" id="right">
+				<div id="contact">
+					<h1>Contact Us</h1>
+					<a class="cta" type="button" href="mailto:stephanie.a.onder@gmail.com">Press/Employment</a>
+					<a class="cta" type="button" href="mailto:stephanie.onder@sonymusic.com">Customer Service</a> 
+					<h3>We are open Monday - Sunday from 6a-7p.</h3>
+				</div>
+				<div id="googlemaps">
+					<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:180px;width:1000px;'><div id='gmap_canvas' style='height:180px; width:1000px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://termsandcondiitionssample.com">terms and conditions sample</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(40.7418876,-73.98696719999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.7418876,-73.98696719999998)});infowindow = new google.maps.InfoWindow({content:'<strong>Comic Brew</strong><br>25 Madison Ave, New York, NY 10010<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+				</div>
+		
+		</section>
+		<!-- Footer -->
+		<footer class="clear">
+		<h6>Copyright Stephanie Onder</h6>
+		</footer>
+		</div>
+		<script src="js/owl.carousel.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+  			$(".owl-carousel").owlCarousel({
+  				items:1, 
+  				boolean:true
+  			});
+			});
+		</script>
+	</body>
+</html>
